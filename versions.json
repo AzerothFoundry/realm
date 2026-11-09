@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "status": "local-source-candidate-not-published",
+  "organization": "AzerothFoundry",
+  "components": {
+    "benilla": {
+      "repository": "https://github.com/AzerothFoundry/benilla",
+      "commit": "2119c72a4b3d67fa83563fefb4a70d10eddad97d",
+      "branch": "feat/realm-client-compat",
+      "image": null,
+      "release_asset": null
+    },
+    "vmangos-core": {
+      "repository": "https://github.com/AzerothFoundry/vmangos-core",
+      "commit": "b3e9549ca617184ed4c8245ab9b590cddec5eafe",
+      "branch": "feat/realm-integration",
+      "image": null,
+      "release_asset": null
+    },
+    "addons": {
+      "repository": "https://github.com/AzerothFoundry/addons",
+      "commit": "b17a158d0b842f4f47fedda0e45c4ab25b3b8482",
+      "branch": "main",
+      "image": null,
+      "release_asset": null
+    },
+    "realm-admin": {
+      "repository": "https://github.com/AzerothFoundry/realm-admin",
+      "commit": "6fd5ac69b22b116493cc1d5c1654eb86ca8fccf3",
+      "branch": "main",
+      "image": null,
+      "release_asset": null
+    },
+    "AutoQuest": {
+      "repository": "https://github.com/AzerothFoundry/AutoQuest",
+      "commit": "36a4f78158142a861777d9d01701cb3240514951",
+      "branch": "feat/vanilla-compat-options",
+      "image": null,
+      "release_asset": null
+    }
+  },
+  "validation": {
+    "realm_admin": "27 unit tests passed; compose config and Python syntax checked; no Docker image or live integration validation",
+    "vmangos_core": "four extracted policy regression tests passed; exported source not rebuilt",
+    "addons": "Convenience simulated harness and SpellID fixture passed; source preview only",
+    "benilla": "source imported and reviewed; not rebuilt"
+  },
+  "distribution": "No images, complete bundles or GitHub repositories have been published by this import."
+}
