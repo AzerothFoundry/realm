@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "status": "local-source-candidate-not-published",
+  "status": "published-source-candidate-not-a-release",
   "organization": "AzerothFoundry",
   "components": {
     "benilla": {
@@ -45,5 +45,5 @@
     "addons": "Convenience simulated harness and SpellID fixture passed; source preview only",
     "benilla": "source imported and reviewed; not rebuilt"
   },
-  "distribution": "No images, complete bundles or GitHub repositories have been published by this import."
+  "distribution": "Source candidates published to GitHub. No images or complete client/addon bundles have been published by this import."
 }

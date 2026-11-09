@@ -8,13 +8,15 @@
 
 ## 项目
 
+源码候选在下列链接指定的分支。三个上游 fork 的默认分支保留上游内容；定制代码尚未合入默认分支或向上游提交 PR。
+
 | 仓库 | 职责 |
 | --- | --- |
-| vmangos-core | 上游 vmangos/core 的正式 fork，服务端及 Bot 功能 |
-| realm-admin | 容器化账号注册、账号信息、密码和九项参数管理 |
-| addons | 四个自研插件及第三方插件版本清单 |
-| AutoQuest | 上游 Nelkel9023/AutoQuest 的正式 fork，兼容与选项修复 |
-| benilla | 通用 1.12.1 客户端 fork，独立于服务端功能 |
+| [vmangos-core](https://github.com/AzerothFoundry/vmangos-core/tree/feat/realm-integration) | 上游 vmangos/core 的正式 fork，服务端及 Bot 功能 |
+| [realm-admin](https://github.com/AzerothFoundry/realm-admin) | 容器化账号注册、账号信息、密码和九项参数管理 |
+| [addons](https://github.com/AzerothFoundry/addons) | 四个自研插件及第三方插件版本清单 |
+| [AutoQuest](https://github.com/AzerothFoundry/AutoQuest/tree/feat/vanilla-compat-options) | 上游 Nelkel9023/AutoQuest 的正式 fork，兼容与选项修复 |
+| [benilla](https://github.com/AzerothFoundry/benilla/tree/feat/realm-client-compat) | 通用 1.12.1 客户端 fork，独立于服务端功能 |
 
 内部环境运维信息留在私有 realm-ops。用户部署不需要克隆这些源码子项目，也不使用嵌套 submodule；正式发行通过镜像和插件 ZIP 获取组件。
 
