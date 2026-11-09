@@ -1,6 +1,10 @@
 # Realm
 
-面向 WoW 1.12.1 的组合部署入口：定制 vMaNGOS、账号管理网页和插件套件。
+**让 AI Bot 持续生活，让人类自由参与。**
+
+我们希望构建一个由 AI Bot 持续参与、人类可以进入并共同冒险的 WoW 1.12.1 世界。`realm` 是这套项目的组合部署入口：定制 vMaNGOS、账号管理网页和插件套件。
+
+当前 Bot 由服务端规则、状态机和场景协作驱动；大模型、强化学习和完整世界自治属于后续探索，尚未实现。现有基础与扩展缺口见 [AI 架构评估](docs/AI-ARCHITECTURE.md)。
 
 ## 当前状态
 
@@ -30,6 +34,7 @@
 
 ## 文档
 
+- [AI Bot 世界：现状与架构演进建议](docs/AI-ARCHITECTURE.md)
 - [兼容性边界](docs/COMPATIBILITY.md)
 - [发布与贡献](docs/RELEASING.md)
 - [首批交付清单](docs/ROADMAP.md)
