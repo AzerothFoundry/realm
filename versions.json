@@ -12,7 +12,7 @@
     },
     "vmangos-core": {
       "repository": "https://github.com/AzerothFoundry/vmangos-core",
-      "commit": "b3e9549ca617184ed4c8245ab9b590cddec5eafe",
+      "commit": "4ff64aef49e4a48d42eb340ace3e8da621eba760",
       "branch": "feat/realm-integration",
       "image": null,
       "release_asset": null
@@ -41,7 +41,7 @@
   },
   "validation": {
     "realm_admin": "27 unit tests passed; compose config and Python syntax checked; no Docker image or live integration validation",
-    "vmangos_core": "four extracted policy regression tests passed; exported source not rebuilt",
+    "vmangos_core": "Decision foundation: C++14 strict module tests and offline JSON workflow passed; four legacy regressions passed; isolated Linux x86_64 full Release mangosd compiled with exact source hash comparison. Native shadow/Boss integration not live-tested; no deployment.",
     "addons": "Convenience simulated harness and SpellID fixture passed; source preview only",
     "benilla": "source imported and reviewed; not rebuilt"
   },
