@@ -35,6 +35,7 @@
 ## 文档
 
 - [AI Bot 世界：现状与架构演进建议](docs/AI-ARCHITECTURE.md)
+- [可编辑决策框架：配置、离线试算与接口](https://github.com/AzerothFoundry/vmangos-core/blob/feat/realm-integration/docs/ai/DECISION-FRAMEWORK.md)
 - [兼容性边界](docs/COMPATIBILITY.md)
 - [发布与贡献](docs/RELEASING.md)
 - [首批交付清单](docs/ROADMAP.md)

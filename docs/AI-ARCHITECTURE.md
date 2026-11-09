@@ -8,6 +8,12 @@
 
 当前 AI 是规则与状态机驱动；本次审阅的 PlayerBots 代码中未发现已接入的 MCP／外部模型推理协议或强化学习训练执行链路。热更新策略不等于在线学习。
 
+## 第一阶段进展（2026-11-09）
+
+评估之后已新增可编辑决策框架，见 [使用说明与接口](https://github.com/AzerothFoundry/vmangos-core/blob/feat/realm-integration/docs/ai/DECISION-FRAMEWORK.md) 和 [验证边界](https://github.com/AzerothFoundry/vmangos-core/blob/feat/realm-integration/docs/ai/VALIDATION.md)。包含值类型观察、命名谓词与多条件 JSON、三值逻辑、规则解释、版本发布、意图与资源仲裁，以及共享遭遇阶段和固定分工接口；提供离线校验／试算和编辑器 Schema。
+
+这是架构基础：原生仅接入默认关闭的 shadow，未替换 PVE/PVP 行为，遭遇 Session 尚未连接实际 Boss，世界活动 Activity 接口也未实施。原评估中的“没有统一接口”描述的是原始基线；新接口尚未全量迁移，不能把接口存在视为所有活动已受统一调度。没有生产部署或重启。
+
 ## 当前实际分层
 
 ```mermaid
