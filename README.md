@@ -34,6 +34,8 @@
 
 ## 文档
 
+- [奥山对象数量实测：出生区样本](docs/measurements/AV-OBJECTS-2026-11-09.md)
+
 - [AI Bot 世界：现状与架构演进建议](docs/AI-ARCHITECTURE.md)
 - [可编辑决策框架：配置、离线试算与接口](https://github.com/AzerothFoundry/vmangos-core/blob/feat/realm-integration/docs/ai/DECISION-FRAMEWORK.md)
 - [兼容性边界](docs/COMPATIBILITY.md)
