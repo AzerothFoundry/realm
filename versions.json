@@ -37,13 +37,21 @@
       "branch": "feat/vanilla-compat-options",
       "image": null,
       "release_asset": null
+    },
+    "realm-agent": {
+      "repository": "https://github.com/AzerothFoundry/realm-agent",
+      "commit": "d5b497ea582207864bfac0d8fff7862d2cd2a71f",
+      "branch": "main",
+      "image": null,
+      "release_asset": null
     }
   },
   "validation": {
     "realm_admin": "27 unit tests passed; compose config and Python syntax checked; no Docker image or live integration validation",
     "vmangos_core": "Decision foundation: C++14 strict module tests and offline JSON workflow passed; four legacy regressions passed; isolated Linux x86_64 full Release mangosd compiled with exact source hash comparison. Native shadow/Boss integration not live-tested; no deployment.",
     "addons": "Convenience simulated harness and SpellID fixture passed; source preview only",
-    "benilla": "source imported and reviewed; not rebuilt"
+    "benilla": "source imported and reviewed; not rebuilt",
+    "realm_agent": "macOS ARM64 Release and 36 automated checks passed. Dedicated Ada live sessions confirmed supplies, ground navigation, native duel results, recovery/continuation, HTTP and WS. A full real hour, warrior parity and general travel/ghost/taxi are not validated."
   },
   "distribution": "Source candidates published to GitHub. No images or complete client/addon bundles have been published by this import."
 }
