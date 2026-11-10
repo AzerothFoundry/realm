@@ -35,6 +35,8 @@
 
 ## 文档
 
+- [法师九职业对战矩阵：来源、行为和未覆盖项](https://github.com/AzerothFoundry/realm-agent/blob/main/docs/MAGE-MATRIX.md)
+
 - [无界面客户端运行与在线验证](https://github.com/AzerothFoundry/realm-agent/blob/main/docs/VALIDATION.md)
 
 - [奥山对象数量实测：出生区样本](docs/measurements/AV-OBJECTS-2026-11-09.md)

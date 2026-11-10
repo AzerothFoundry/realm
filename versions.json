@@ -40,7 +40,7 @@
     },
     "realm-agent": {
       "repository": "https://github.com/AzerothFoundry/realm-agent",
-      "commit": "d5b497ea582207864bfac0d8fff7862d2cd2a71f",
+      "commit": "b88864a33fc33210b21d401da1743dcd5536513c",
       "branch": "main",
       "image": null,
       "release_asset": null
@@ -51,7 +51,7 @@
     "vmangos_core": "Decision foundation: C++14 strict module tests and offline JSON workflow passed; four legacy regressions passed; isolated Linux x86_64 full Release mangosd compiled with exact source hash comparison. Native shadow/Boss integration not live-tested; no deployment.",
     "addons": "Convenience simulated harness and SpellID fixture passed; source preview only",
     "benilla": "source imported and reviewed; not rebuilt",
-    "realm_agent": "macOS ARM64 Release and 36 automated checks passed. Dedicated Ada live sessions confirmed supplies, ground navigation, native duel results, recovery/continuation, HTTP and WS. A full real hour, warrior parity and general travel/ghost/taxi are not validated."
+    "realm_agent": "56 automated checks and macOS ARM64 Release pass. Mage has nine class-specific JSON files, shared defenses, global rule priority, observed forms/casts/history and native action adapters. Ada online bundle loaded; all-nine live matches and competitive win rates not verified."
   },
   "distribution": "Source candidates published to GitHub. No images or complete client/addon bundles have been published by this import."
 }
