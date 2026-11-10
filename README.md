@@ -18,6 +18,7 @@
 | --- | --- |
 | [vmangos-core](https://github.com/AzerothFoundry/vmangos-core/tree/feat/realm-integration) | 上游 vmangos/core 的正式 fork，服务端及 Bot 功能 |
 | [realm-admin](https://github.com/AzerothFoundry/realm-admin) | 容器化账号注册、账号信息、密码和九项参数管理 |
+| [realm-agent](https://github.com/AzerothFoundry/realm-agent) | 无界面原生客户端：状态／WS、任务控制与城市切磋首版 |
 | [addons](https://github.com/AzerothFoundry/addons) | 四个自研插件及第三方插件版本清单 |
 | [AutoQuest](https://github.com/AzerothFoundry/AutoQuest/tree/feat/vanilla-compat-options) | 上游 Nelkel9023/AutoQuest 的正式 fork，兼容与选项修复 |
 | [benilla](https://github.com/AzerothFoundry/benilla/tree/feat/realm-client-compat) | 通用 1.12.1 客户端 fork，独立于服务端功能 |
@@ -33,6 +34,8 @@
 - 发布锁文件见 versions.json。只有验证通过的组合才进入正式发行；不依赖浮动 latest。
 
 ## 文档
+
+- [无界面客户端运行与在线验证](https://github.com/AzerothFoundry/realm-agent/blob/main/docs/VALIDATION.md)
 
 - [奥山对象数量实测：出生区样本](docs/measurements/AV-OBJECTS-2026-11-09.md)
 
